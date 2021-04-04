@@ -1,0 +1,200 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Reset
+-------------------------------------------------*/
+*, *:before, *:after{margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box;}
+body{font-family: 'Montserrat','Lato', 'Open Sans', sans-serif; font-size: inherit;}
+
+input, select, iframe, button{border: none; font-family: 'Open Sans', sans-serif;}
+h1, h2, h3{margin: 0; padding: 0;}
+a{text-decoration:none; color: black;} 
+ol, ul{list-style: none;}
+img{max-width: 100%; border: none;}
+html {
+    scroll-behavior: smooth;
+}
+
+.body-container {
+	display: flex;
+}
+body{background: #34c4cc;/*#f3f2f3;*/}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background: #34c4cc;
+	border-radius: 30px;
+}
+
+/*MENU*/
+#menu-section {
+	width: 5rem;
+	height: 100vh;
+	position: fixed;
+}
+
+.logo {
+	width: 90%;
+	height: 12vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    width: 4rem;
+	justify-content: center;
+    height: 88vh;
+}
+
+.icon {
+	margin: 25px 10px;
+    text-align: center;
+}
+
+.icon i {
+	font-size: 18px;
+	color: #fff;
+	padding: 15px;
+}
+
+
+.icon:hover i{
+	text-shadow: 0px 5px 15px rgba(255, 255, 255, 1);
+    background: #00effc;
+    border-radius: 12px;
+}
+
+
+
+/*CONTAINER-END*/
+#container-end {
+	width: 100vw;
+	border-radius: 40px;
+	margin: 10px 10px 10px 4.5rem;
+    background: #fff;
+    padding: 25px 25px;
+}
+
+.infoAux {
+	display: flex;
+	flex-wrap: wrap;
+	width: 89vw;
+}
+
+/*Parte Superior*/
+.parteSuperior {
+	display: flex;
+	justify-content: space-between;
+}
+
+.parteSuperior p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.main-title h4 {
+    font-family: "Montserrat";
+    font-weight: 550;
+}
+
+
+.btnSair button {
+    padding: 2px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    background: #00effc;
+    color: #fff;
+}
+
+
+.title {
+	margin-top: 4rem;
+}
+.title h4 {
+	font-family: "Montserrat";
+    font-weight: 800;
+}
+.title hr {
+	width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    border-top: 4px solid #00effc;
+}
+
+
+
+
+
+/*Lista Analista*/
+.pesquisar {margin: 3rem 0.325rem 0 0;}
+
+.btn-outline-secondary:hover {
+	background: #00effc;
+	color: #fff;
+	border-color: #00effc;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+.listaContent{
+    overflow: auto;
+    height: 67vh;
+    margin-bottom: 3rem;
+}
+
+.lista table {    
+	width: 89vw;
+    margin-top: 2rem;
+}
+
+.nome-th, .depto-th {width: 15rem;}
+.id-th {width: 10rem;}
+.cargo-th {width: 20rem;}
+
+.thLista {
+	padding-bottom: 1rem;
+    padding-left: 10px;
+}
+
+.tdLista {
+    padding: 1rem 10px;
+}
+
+.elemLista:hover {
+	background: #f3f2f3;
+}
+.elemLista:hover .btnLista{
+	border-radius: 0 3rem 3rem 0;
+}
+.btnLista button:hover {background: #00effc;}
+.elemLista:hover .nome-th{
+	padding: 8px 10px;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.btnLista button {
+	padding: 2px 20px;
+	margin-right: 1rem;
+    font-size: 14px;
+    border-radius: 20px;
+    color: #fff;
+    background: #1b1b1b;
+    border: none;
+    outline: none;
+}
+
+.btnLista a {
+	transition: 0.5s;
+	text-decoration: none;
+	color: #FFF;
+}

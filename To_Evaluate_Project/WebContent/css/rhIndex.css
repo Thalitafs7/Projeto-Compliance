@@ -1,0 +1,118 @@
+
+.titulo-index{margin: 22vh 0 14vh; text-align: center;}
+
+.titulo-index h3 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #34c4cc;
+    margin-bottom: 1rem;
+}
+
+.titulo-index p {
+	font-size: 18px;
+    font-weight: 400;
+}
+
+.titulo-index p:hover {font-weight: 600;}
+
+.configuracao {
+	float: right;
+	margin-right: 5px;
+}
+
+
+@media screen and (min-height: 600px) {
+	#container-end {
+		height: 96.5vh;
+	}
+}
+
+
+/*CONFIGURAÇÕES DOS BOTÕES
+------------------------------------------------*/
+.botoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.button a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #1b1b1b;
+    letter-spacing: 2px;
+    overflow: hidden;
+    transition: 0.2s;
+    text-decoration: none;
+    font-weight: 400;
+    width: 14rem;
+    text-align: center;
+}
+.button a:hover{
+  color: #BAF9EE;
+  background: #34c4cc;
+  box-shadow: 0 0 10px #34c4cc, 0 0 40px #34c4cc, 0 0 80px #34c4cc;
+  transition-delay: 1s;
+  font-weight: 600;
+}
+
+.button a span{
+  position: absolute;
+  display: block;
+}
+
+.button a span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #2196f3);
+}
+.button a:hover span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+  }
+
+.button a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+}
+
+.button a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.button a span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #2196f3);
+}
+.button a:hover span:nth-child(2){
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.button a span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #2196f3);
+}
+.button a:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}

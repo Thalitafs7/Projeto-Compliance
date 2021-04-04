@@ -1,0 +1,194 @@
+.title {
+	margin-top: 4rem;
+}
+.title h4 {
+	font-family: "Montserrat";
+    font-weight: 800;
+}
+.title hr {
+	width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    border-top: 4px solid #00effc;
+}
+
+.conteudo {
+	margin: 30px;
+}
+
+.parteSuperior {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.funcionarioInfos {
+	display: flex;
+	width: 88.7vw;
+	background: #34c4cc;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.infoSuperior {
+	display: flex;
+	align-items: center;
+	width: 30rem;
+}
+
+.img {
+	background: #BAF9EE;
+	padding: 14px;
+	border-radius: 31%;
+}
+
+.img img {
+	width: 4rem;
+}
+
+.infosS {
+	margin-left: 15px;
+}
+
+.h3 {
+	font-size: 17px;
+	font-weight: 550;
+}
+
+.p {
+	font-size: 13px;
+}
+
+.infosI {
+	display: flex;
+	justify-content: space-between;
+	margin: 18px 8px 0;
+}
+
+.cards {
+	width: 80rem;
+}
+
+.card {
+	background: #000;
+	margin: 0 67px;
+	height: 12rem;
+}
+
+.card-partSuperior {
+	display: flex;
+}
+
+.parteInferior {
+	display: flex;
+}
+
+/*FOOTER*/
+.footer {
+	background-color: #34c4cc;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #1b1b1b;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.texto-footer {
+	text-align: center;
+	margin: 150px 0 0;
+}
+
+.box {
+	margin: 90px 15px 0px;
+	height: 80vh;
+	overflow: auto;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 10px;
+}
+
+​​
+
+::-webkit-scrollbar-thumb {
+	background: #34c4cc;
+	border-radius: 30px;
+}
+​​
+
+.menu-lista {
+	border-collapse: collapse;
+	margin: 20px 20px;
+	/*COLOCAR SCROLL*/
+}
+
+th {
+	color: #34c4cc;
+}
+
+td, th {
+	/*border: 1px solid #dddddd;*/
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	width: 100vw;
+}
+
+.b-sim {
+	width: 1%;
+}
+
+.b-nao {
+	float: right;
+}
+
+tr:nth-child(even) {
+	background-color: #AFEEEE;
+}
+
+.botaoPermitir, .botaoNegar {
+	font-size: 12px;
+	padding: 8px 35px;
+	border-radius: 40px;
+	color: white;
+}
+
+.botaoPermitir {
+	background-color: #34c4cc;
+}
+
+.botaoNegar {
+	background-color: #ff0000;
+}
+
+.permitirTodos {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 22px;
+}
+
+.botaoPermitirTodos {
+	font-size: 15px;
+	padding: 8px 45px;
+	border-radius: 40px;
+	color: white;
+	background-color: #34c4cc;
+}
+
+@media ( max-width : 1060px) {
+	.menu-header {
+		flex-flow: column nowrap;
+	}
+	.b-sim {
+		display: table;
+	}
+	.b-nao {
+		float: left;
+	}
+}

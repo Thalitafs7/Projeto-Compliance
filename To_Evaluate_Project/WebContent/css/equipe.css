@@ -1,0 +1,134 @@
+.sair-hover a {text-decoration: none;}
+
+.voltar {margin: 1.2rem;}
+
+.fundo img {
+    height: 85vh;
+    width: 100vw;
+}
+
+.body-container {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo {font-weight: 800;}
+
+.section-titulo {
+    height: 10rem;
+    margin: 5rem 0 10rem;
+}
+
+
+.title {
+	margin-top: 4rem;
+}
+.title h4 {
+	font-family: "Montserrat";
+    font-weight: 800;
+}
+.title hr {
+	float: left;
+	width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    border-top: 4px solid #00effc;
+}
+
+.atualizarSkill {
+	display: flex;
+	justify-content: center;
+}
+
+#form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}      
+
+#form-group button {
+	margin-top: 24px;
+    margin-left: 1rem;
+}
+
+/*Lista Analista*/
+.pesquisar {margin: 5rem 0 0;}
+
+.btn-outline-secondary:hover {
+	background: #00effc;
+	color: #fff;
+	border-color: #00effc;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+.listaContent{
+    overflow: auto;
+    height: 67vh;
+    margin-bottom: 3rem;
+}
+
+.lista table {   
+    margin-top: 2rem;
+}
+
+.nome-th, .id-th{width: 15rem;}
+.cargo-th {width: 20rem;}
+
+.thLista {
+	padding-bottom: 1rem;
+    padding-left: 10px;
+    color: #34C4D5;
+}
+
+.tdLista {
+    padding: 1rem 10px;
+}
+
+.elemLista:hover {
+	background: #f3f2f3;
+}
+.elemLista:hover .btnLista{
+	border-radius: 0 3rem 3rem 0;
+}
+.btnLista button:hover {background: #00effc; color: #fff; border: none;}
+.elemLista:hover .nome-th{
+	padding: 8px 10px;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.btnLista button {
+	padding: 2px 20px;
+	margin-right: 1rem;
+    font-size: 14px;
+    border-radius: 20px;
+	color: #1b1b1b;
+    border: 1px solid #1b1b1b;
+    background: none;
+    outline: none;
+}
+
+.btnLista a {
+	transition: 0.5s;
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+/*Configurações Analista/Gestor */
+.alteracoes .form-group label {font-size: 14px;}
+.alteracoes .form-group {margin-right: 2rem; margin-bottom: 3rem;}
+
+.input-form {width: 25vw;}
+
+.formBox-1,.formBox-2  {
+	display: flex;
+}
+
+
+	
