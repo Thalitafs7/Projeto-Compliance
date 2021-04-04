@@ -1,0 +1,261 @@
+
+
+/*CONTEÚDO*/
+.conteudo {
+    margin-top: 3rem;
+}
+
+/*Section info*/
+.info {
+	width: 89vw;
+    height: 17.75rem;
+    background-color: #00effc;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Child1*/
+.child1 {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 2rem;
+}
+
+.boxSuperior-child1 {
+	display: flex;
+}
+.h3-func {
+	font-size: 18px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+}
+.p-func {
+	margin-top: .3275rem;
+    font-size: 15px;
+}
+.perfil-img {
+	width: 90px;
+    padding: 1rem;
+    background: #BAF9EE;
+    border-radius: 1.325rem;
+}
+.info-boxSuperior {margin-left: 1.25rem;}
+
+
+.boxInferior-child1 {
+	display: flex;
+	margin-top: 1.25rem;
+}
+#depto, #idade, #gestor, #status {margin: 0 2rem 0 0;}
+
+/*Child2*/
+.child2 {
+    margin: 1rem 2rem;
+/*     width: 40vw; */
+	width: 32rem;
+    border-radius: 2.3rem;
+}
+
+#carouselExampleIndicators {
+	border-radius: 2.3rem;
+}
+
+.card {
+    background: #1b1b1b;
+	border-radius: 2.3rem;
+    padding: 3rem 5rem 3rem;
+    height: 22rem;
+    color: #fff;
+    width: 40vw;
+}
+
+.card-icon {
+    width: 45px;
+    padding: 16px 24px;
+    background: #00effc;
+    display: flex;
+    justify-content: center;
+    border-radius: 13px;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 1);
+}
+.card-title h4 {
+	margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+.card-media {
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 2rem;
+}
+.card-analista p, .card-gestor p{
+	margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.card-gestor p {text-align: right;}
+
+/*Notas*/
+.card-notas {
+	margin-top: 1rem;
+	overflow: auto;
+}
+
+.analista {padding-right: 1.5rem;}
+.center{text-align: center;}
+
+.td {
+	padding-right: 2rem; 
+	font-weight: 200;
+	padding-top: 0.25rem;
+	font-size: 13px;
+}
+
+.skil2, .analista2, .gestor2 {padding-right: 10px; font-size: 15px;}
+.skill-td {padding-right: 2rem; padding-top: 0.235rem;}
+.skill-td, .analista-td, .gestor-td, .dif-td {font-size: 13px; 	font-weight: 200;} 
+ .analista-td, .gestor-td, .dif-td {text-align: center;}
+.dif-td {color: #00effc;}
+
+
+.card3-p {
+	margin-top: 10px;
+    font-size: 12px;
+    font-weight: 550;
+}
+.obs{font-weight: 800;}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background: #34c4cc;
+	border-radius: 30px;
+}
+
+/*Gráfico*/
+.title {
+	margin-top: 4rem;
+}
+.title h4 {
+	font-family: "Montserrat";
+    font-weight: 800;
+}
+.title hr {
+	width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    border-top: 4px solid #00effc;
+}
+.graphic {
+    display: flex;
+    justify-content: center;
+}
+.canvas {width:60vw;}
+
+
+/* /*Lista Analista*/
+.pesquisar {margin: 3rem 40rem 0 0;}
+
+.btn-outline-secondary:hover {
+	background: #00effc;
+	color: #fff;
+	border-color: #00effc;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+.listaContent{
+    overflow: auto;
+    height: 67vh;
+    margin-bottom: 3rem;
+    width: 89vw;
+}
+
+.lista table {    
+    margin-top: 2rem;
+}
+
+.nome-th, .depto-th {width: 16rem;}
+.id-th {width: 10rem;}
+.cargo-th {width: 20rem;}
+
+.thLista {
+	padding-bottom: 1rem;
+    padding-left: 10px;
+}
+
+.tdLista {
+    padding: 1rem 10px;
+}
+
+.elemLista:hover {
+	background: #f3f2f3;
+}
+.elemLista:hover .btnLista{
+	border-radius: 0 3rem 3rem 0;
+}
+.btnLista button:hover {background: #00effc;}
+.elemLista:hover .nome-th{
+	padding: 8px 10px;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.btnLista{padding-left: 1rem;}
+
+.btnLista button {
+	padding: 2px 20px;
+	margin-right: 1rem;
+    font-size: 14px;
+    border-radius: 20px;
+    color: #fff;
+    background: #1b1b1b;
+    border: none;
+    outline: none;
+}
+
+.btnLista a {
+	transition: 0.5s;
+	text-decoration: none;
+	color: #FFF;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 426px) {
+	body{displfay: inline-block;}
+	.info {
+		display: block;
+		width: 159vw;
+	}
+	#container-end {width: 173vw;}
+}
+
+@media screen and (max-width: 1150px) {
+	
+}
+
+@media screen and (min-width: 1151px) {
+	body {display: none;}
+}
+ */
+
+
+
