@@ -1,3 +1,3 @@
 # Projeto-Compliance
 
-#Projeto Git - SoftHouse - ToEvaluate
+#Projeto Git - SoftHouse - To Evaluate
